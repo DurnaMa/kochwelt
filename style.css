@@ -6,9 +6,10 @@
 
 @font-face {
   font-family: "openSans";
+  src: url(/open-sans/OpenSans-Regular.ttf);
   font-style: normal;
   font-weight: bold;
-  src: url(/open-sans/OpenSans-Regular.ttf);
+  
 }
 
 .header {

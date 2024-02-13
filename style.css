@@ -4,11 +4,18 @@
   scroll-behavior: smooth;
 }
 
+@font-face {
+  font-family: "openSans";
+  font-style: normal;
+  font-weight: bold;
+  src: url(/open-sans/OpenSans-Regular.ttf);
+}
+
 .header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 1);
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 1);
 }
 
 .logo {
